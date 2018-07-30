@@ -26,3 +26,29 @@ client.index({
 },function(err,resp,status) {
     console.log(resp);
 });
+
+client.index({
+  index: 'employees',
+  id: '3',
+  type: 'object',
+  body: {
+    "name": "Cesar Bolaños",
+    "email": "cesar.bolanos.andino@gmail.com",
+    "country": "Nicaragua"
+  }
+},function(err,resp,status) {
+    console.log(resp);
+});
+
+client.index({
+  index: 'employees',
+  id: '3',
+  type: 'object',
+  body: {
+    "name": "Marco Boza",
+    "email": "mabsboza@gmail.com",
+    "country": "Nicaragua"
+  }
+},function(err,resp,status) {
+    console.log(resp);
+});
