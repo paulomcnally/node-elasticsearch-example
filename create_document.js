@@ -1,5 +1,4 @@
 var client = require('./connection.js');
-var faker = require('faker');
 
 client.index({
   index: 'employees',
