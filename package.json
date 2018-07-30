@@ -1,0 +1,10 @@
+{
+  "name": "node-elasticsearch-example",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^15.1.1",
+    "get-json": "^1.0.0"
+  }
+}
